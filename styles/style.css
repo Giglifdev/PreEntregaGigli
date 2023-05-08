@@ -1,0 +1,58 @@
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    border:none;
+}
+
+
+.contenedor {
+    display:flex;
+    margin:auto;
+    padding:50px 0;
+    justify-content: space-between;
+    background-image:url("/images/razer.jpg");
+}
+.contenedor .logo  {
+    color:green;
+}
+
+.botons { 
+    display:inline-block;
+    justify-content: end;
+}
+.botons ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 0 60px 50px;
+    color:grey;
+}
+.botons a {
+    color:white;
+}
+
+.navdrop {
+    display:inline-block;
+    margin: 12px 60px 60px ;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.carousel img {
+    height: 100vh;
+}
+
+
+.contenedor2 {
+    margin-top:5vh;
+}
+
+.contenedor3 {
+    margin-top:15vh;
+}
