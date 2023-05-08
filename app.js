@@ -1,5 +1,6 @@
 //welcome//
-let welcome = prompt("Bienvenido a SuperTech, por favor ingrese su nombre");
+let welcome = prompt("Bienvenido a SuperTech, por favor ingresa tu nombre");
+    console.log("Hola, " + welcome + "!");
 
 //Store//
 let StoreBrands = alert("seleccione el tipo de accesorio y acontinuacion se le mostrara una marca a elegir, siga los pasos.");
