@@ -13,7 +13,7 @@ if (cartItemsSaved) {
   cartItems = JSON.parse(cartItemsSaved);
   updateCartCount();
 }
-if (window.location.pathname.includes("/Pc.html")) {
+if (window.location.pathname.includes("/pages/Pc.html")) {
   fetch("/data.json")
     .then((response) => response.json())
     .then((data) => {
