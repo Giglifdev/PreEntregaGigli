@@ -1,0 +1,283 @@
+[
+  {
+    "Category": "Pc Desktops",
+    "Products": [
+      {
+        "id": 1,
+        "name": "Corsair One i200",
+        "price": 1300500,
+        "image": "/images/proyectojavascript/Desktops_Components/corsair_one2_.jpg"
+      },
+
+      {
+        "id": 2,
+        "name": "AMD KAIROS PRO RYZEN 7",
+        "price": 630109,
+        "image": "/images/proyectojavascript/Desktops_Components/desktop_kairos_pro_ryzen7.jpg"
+      },
+
+      {
+        "id": 3,
+        "name": "AMD Ryzen 3",
+        "price": 23514479,
+        "image": "/images/proyectojavascript/Desktops_Components/nvidia_desktop.jpg"
+      },
+
+      {
+        "id": 4,
+        "name": "AMD KAIROS PRO RYZEN 3",
+        "price": 566729,
+        "image": "/images/proyectojavascript/Desktops_Components/desktop_kairos_pro_ryzen3.png"
+      },
+
+      {
+        "id": 5,
+        "name": "PC INTEL I5",
+        "price": 280139,
+        "image": "/images/proyectojavascript/Desktops_Components/desktop_intel_i5.png"
+      },
+
+      {
+        "id": 6,
+        "name": "PC AMD E1-6010",
+        "price": 103079,
+        "image": "/images/proyectojavascript/Desktops_Components/desktop_e1_ssd.png"
+      }
+    ]
+  },
+
+  {
+    "Category": "Keyboards",
+    "Products": [
+      {
+        "id": 1,
+        "name": "Razer BlackWidow V4 Pro - Green Switch - US",
+        "price": 114995,
+        "image": "images/proyectojavascript/Keyboards/RAZER_BLACKWIDOW_V4.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Razer BlackWidow V3 Pro - Green Switch - US",
+        "price": 90000,
+        "image": "images/proyectojavascript/Keyboards/RAZER_BLACKWIDOW_V3.jpg"
+      },
+
+      {
+        "id": 3,
+        "name": "Keyboard Logitech G PRO TKL LOL Edition 2",
+        "price": 44089,
+        "image": "images/proyectojavascript/Keyboards/keyboard_logitech_g_pro.png"
+      },
+
+      {
+        "id": 4,
+        "name": "Keyboard HyperX Alloy Origins 65 HX Red",
+        "price": 40779,
+        "image": "images/proyectojavascript/Keyboards/keyboard_hyperx_alloy_red.png"
+      },
+
+      {
+        "id": 5,
+        "name": "Keyboard Logitech G G413 SE Gaming TKL",
+        "price": 36369,
+        "image": "images/proyectojavascript/Keyboards/keyboard_logitech_g413_gaming.png"
+      },
+
+      {
+        "id": 6,
+        "name": "Keyboard Redragon K616 RGB",
+        "price": 26449,
+        "image": "images/proyectojavascript/Keyboards/keyboard_redragon_rgb_propink.png"
+      },
+
+      {
+        "id": 7,
+        "name": "eyboard Genesis Thor 300 TKL RGB Switch Red",
+        "price": 19279,
+        "image": "images/proyectojavascript/Keyboards/keyboard_genesis_thor_rgbswitch.png"
+      },
+
+      {
+        "id": 8,
+        "name": "Keyboard Redragon K585 DITI RGB One-handed",
+        "price": 8809,
+        "image": "images/proyectojavascript/Keyboards/keyboard_redragon_rgb_one_handed.png"
+      },
+
+      {
+        "id": 9,
+        "name": "Keyboard Philips K254 Black",
+        "price": 2639,
+        "image": "images/proyectojavascript/Keyboards/keyboard_philips_negro.png"
+      }
+    ]
+  },
+
+  {
+    "Category": "Audio",
+    "Products": [
+      {
+        "id": 1,
+        "name": "RAZER BLACKSHARK V2 PRO",
+        "price": 115000,
+        "images": "images/proyectojavascript/Audio/audio_razer_blackshark_v2pro.png"
+      },
+
+      {
+        "id": 2,
+        "name": "AURICULAR INALAMBRICO HYPERX CLOUD FLIGHT",
+        "price": 59519,
+        "images": "images/proyectojavascript/Audio/audio_hyperxcloud_wireless.jpg"
+      },
+
+      {
+        "id": 3,
+        "name": "AURICULARES LOGITECH",
+        "price": 46289,
+        "images": "images/proyectojavascript/Audio/audio_logitech_lightsyncrgb.png"
+      },
+
+      {
+        "id": 4,
+        "name": "AURICULAR LOGITECH ASTRO",
+        "price": 29759,
+        "images": "images/proyectojavascript/Audio/audio_logitech_astro_a10.png"
+      },
+
+      {
+        "id": 5,
+        "name": "AURICULAR REDRAGON H120 ARES",
+        "price": 8469,
+        "images": "images/proyectojavascript/Audio/audio_redragon_ares_jpg"
+      },
+
+      {
+        "id": 6,
+        "name": "AURICULAR INALAMBRICO SAMSUNG GALAXY BUDS 2 PRO",
+        "price": 66199,
+        "images": "images/proyectojavascript/Audio/audio_wireless_samsung_galaxy_buds2pro.jpg"
+      }
+    ]
+  },
+
+  {
+    "Category": "Mouse",
+    "Products": [
+      {
+        "id": 1,
+        "name": "Razer Basilisk V3 Pro ",
+        "price": 105000,
+        "images": " images/proyectojavascript/Mouse/mouse_razer_basilisk_v3_pro.png"
+      },
+
+      {
+        "id": 2,
+        "name": "Mouse Wireless Logitech G Pro X Superlight Black",
+        "price": 70549,
+        "images": " images/proyectojavascript/Mouse/mouse_logitech_wireless_pro_superlightblack.png"
+      },
+
+      {
+        "id": 3,
+        "name": "Mouse Logitech G G502X White",
+        "price": 45189,
+        "images": " images/proyectojavascript/Mouse/mouse_logitech_g_white.png"
+      },
+
+      {
+        "id": 4,
+        "name": "Mouse Logitech G300S Gaming Optical",
+        "price": 14539,
+        "images": " images/proyectojavascript/Mouse/mouse_logitech_g300s_gaming.png"
+      }
+    ]
+  },
+
+  {
+    "Category": "Mousepads",
+    "Products": [
+      {
+        "id": 1,
+        "name": "Mousepad HyperX Fury S Pro Extra Large",
+        "price": 21209,
+        "images": " images/proyectojavascript/Mousepad/mousepad_hyperx_fury_pro.png"
+      },
+
+      {
+        "id": 2,
+        "name": "Mousepad Logitech G G840 KDA League of Legends",
+        "price": 18169,
+        "images": " images/proyectojavascript/Mousepad/mousepad_logitech_league_of_legends.png"
+      },
+
+      {
+        "id": 3,
+        "name": "Mousepad Cooler Master MP511 30 Anniversary",
+        "price": 15089,
+        "images": " images/proyectojavascript/Mousepad/mousepad_cooler_master.png"
+      },
+
+      {
+        "id": 4,
+        "name": "Mousepad Genius G-PAD 800S",
+        "price": 5079,
+        "images": " images/proyectojavascript/Mousepad/mousepad_genius.png"
+      }
+    ]
+  },
+
+  {
+    "Category": "Notebooks",
+    "Pro     ducts": [
+      {
+        "id": 1,
+        "name": "Notebook Gigabyte Aero 5 KE4 I7 12700H 16GB SSD 1TB Rtx 3060 15.6 W10",
+        "price": 1102499,
+        "images": " images/proyectojavascript/Notebooks/notebook_gigabyte_aero_5_i7.png"
+      },
+      {
+        "id": 2,
+        "name": "Notebook Gigabyte Aorus 17G I7 11800H Rtx 3070 16GB SSD 512GB 17 W10",
+        "price": 1047359,
+        "images": " images/proyectojavascript/Notebooks/notebook_gigabyte_aorus_i7.png"
+      },
+      {
+        "id": 3,
+        "name": "Notebook Asus Zenbook Duo 14 UX482EGR-KA337W Core I7",
+        "price": 970189,
+        "images": " images/proyectojavascript/Notebooks/notebook_asus_zenbook_i7.png"
+      },
+
+      {
+        "id": 4,
+        "name": "Notebook Apple Macbook Pro M1 13 8GB 512GB Space Grey",
+        "price": 937109,
+        "images": " images/proyectojavascript/Notebooks/notebook_apple_macbook_pro.png"
+      },
+      {
+        "id": 5,
+        "name": "Notebook Lenovo Thinkpad E14 G2 Core I7 1165G7 8GB SSD 256GB 14 ",
+        "price": 762919,
+        "images": " images/proyectojavascript/Notebooks/notebook_lenovo_thinkpad_i7.png"
+      },
+      {
+        "id": 6,
+        "name": "Notebook Bangho Max L5 I7 1165G7 SSD 480GB 8GB 15.6 Fhd W11",
+        "price": 363809,
+        "images": " images/proyectojavascript/Notebooks/notebook_bangho_max_i7.png"
+      },
+      {
+        "id": 7,
+        "name": "Notebook CX 30282 I5 1135G7 8GB SSD 240GB 15.6 ",
+        "price": 273409,
+        "images": " images/proyectojavascript/Notebooks/notebook_cx_i5.png"
+      },
+      {
+        "id": 8,
+        "name": "Notebook Lenovo V15 Pentium N5030 4GB 1TB 15.6",
+        "price": 198499,
+        "images": " images/proyectojavascript/Notebooks/notebook_lenovo_v15_pentium.png"
+      }
+    ]
+  }
+]
