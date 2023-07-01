@@ -6,42 +6,42 @@
         "id": 1,
         "name": "Corsair One i200",
         "price": 1300500,
-        "image": "./images/proyectojavascript/Desktops_Components/corsair_one2_.jpg"
+        "image": "../images/proyectojavascript/Desktops_Components/corsair_one2_.jpg"
       },
 
       {
         "id": 2,
         "name": "AMD KAIROS PRO RYZEN 7",
         "price": 630109,
-        "image": "./images/proyectojavascript/Desktops_Components/desktop_kairos_pro_ryzen7.jpg"
+        "image": "../images/proyectojavascript/Desktops_Components/desktop_kairos_pro_ryzen7.jpg"
       },
 
       {
         "id": 3,
         "name": "AMD Ryzen 3",
         "price": 23514479,
-        "image": "./images/proyectojavascript/Desktops_Components/nvidia_desktop.jpg"
+        "image": "../images/proyectojavascript/Desktops_Components/nvidia_desktop.jpg"
       },
 
       {
         "id": 4,
         "name": "AMD KAIROS PRO RYZEN 3",
         "price": 566729,
-        "image": "./images/proyectojavascript/Desktops_Components/desktop_kairos_pro_ryzen3.png"
+        "image": "../images/proyectojavascript/Desktops_Components/desktop_kairos_pro_ryzen3.png"
       },
 
       {
         "id": 5,
         "name": "PC INTEL I5",
         "price": 280139,
-        "image": "./images/proyectojavascript/Desktops_Components/desktop_intel_i5.png"
+        "image": "../images/proyectojavascript/Desktops_Components/desktop_intel_i5.png"
       },
 
       {
         "id": 6,
         "name": "PC AMD E1-6010",
         "price": 103079,
-        "image": "./images/proyectojavascript/Desktops_Components/desktop_e1_ssd.png"
+        "image": "../images/proyectojavascript/Desktops_Components/desktop_e1_ssd.png"
       }
     ]
   },
