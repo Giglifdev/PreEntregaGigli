@@ -13,7 +13,7 @@ if (cartItemsSaved) {
   cartItems = JSON.parse(cartItemsSaved);
   updateCartCount();
 }
-if (window.location.pathname.includes("/pages/Pc.html")) {
+if (window.location.pathname.includes("/Pc.html")) {
   fetch("/data.json")
     .then((response) => response.json())
     .then((data) => {
@@ -292,7 +292,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "You have been successfully registered.",
             "success"
           ).then(() => {
-            window.location.href = "/pages/AccountImplements/indexwithacc.html";
+            window.location.href = "indexwithacc.html";
           });
         }
       });
