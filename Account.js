@@ -19,5 +19,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function redirectToIndexWithAcc() {
-  window.location.href = "/pages/AccountImplements/indexwithacc.html";
+  window.location.href = "../../pages/AccountImplements/indexwithacc.html";
 }

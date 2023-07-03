@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "You have been successfully registered.",
             "success"
           ).then(() => {
-            window.location.href = "indexwithacc.html";
+            window.location.href =
+              "../../pages/AccountImplements/indexwithacc.html";
           });
         }
       });

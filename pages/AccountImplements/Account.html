@@ -25,13 +25,19 @@
     <nav class="nav_bar navbar-expand-lg bg-body-tertiary">
       <div class="contenedor container-fluid">
         <a href="/index.html"><h1>HardwareHaven</h1></a>
-        <img
-          class="cart"
-          src="/images/cartshopping.png"
-          height="35px"
-          width="35px"
-          alt="mini cart"
-        />
+        <div id="cart-container" class="cart-container">
+          <img
+            class="cart"
+            src="../../images/cartshopping.png"
+            height="35px"
+            width="35px"
+            alt="mini cart"
+            id="cart-icon"
+          />
+
+          <div id="cart-items"></div>
+          <div id="cart-total"></div>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -172,12 +178,19 @@
           >Sign up</a
         >
       </p>
+      <div class="shop" id="shop"></div>
+      <div id="modal-container" class="modal-container">
+        <i id="decrement-icon" class="bi bi-trash"></i>
+        <i id="increment-icon" class="bi bi-plus-lg"></i>
+        <i id="close-icon" class="bi bi-x-circle-fill"></i>
+      </div>
     </div>
     <footer class="accountfooter">
       <h5>Copyright © 2023 HardwareHaven. All rights reserved.</h5>
     </footer>
 
-    <script src="/Account.js"></script>
+    <script src="../../Account.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
