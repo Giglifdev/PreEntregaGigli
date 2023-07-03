@@ -155,12 +155,11 @@ function updateCartCount() {
  *  ! format price
  */
 function formatPrice(price) {
-  return price.toLocaleString("es-AR", {
-    style: "currency",
-    currency: "ARS",
+  const formattedPrice = price.toLocaleString("es-AR", {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   });
+  return formattedPrice.replace(/^ARS/, "$");
 }
 
 /**
