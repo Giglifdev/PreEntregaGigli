@@ -1,3 +1,6 @@
+/**
+ * ! Login + redirect to register acc
+ */
 document.addEventListener("DOMContentLoaded", function () {
   var registerBtn = document.querySelector("#register-btn");
   if (registerBtn) {

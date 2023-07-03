@@ -1,24 +1,31 @@
-// Crear contenedor de tarjetas 1
+/**
+ * ! card 1
+ */
 const cardContainer1 = document.createElement("div");
 cardContainer1.classList.add("row");
 document.body.appendChild(cardContainer1);
 
-// Crear contenedor de tarjetas 2
+/**
+ *  ! card 2
+ */
 const cardContainer2 = document.createElement("div");
 cardContainer2.classList.add("row");
 document.body.appendChild(cardContainer2);
 
-// Arreglo de items del carrito
+/**
+ *  ! cart
+ */
 let cartItems = [];
 
-// Obtener items del carrito almacenados en localStorage
 let cartItemsSaved = localStorage.getItem("cartItems");
 if (cartItemsSaved) {
   cartItems = JSON.parse(cartItemsSaved);
   updateCartCount();
 }
 
-// Realizar la solicitud de los productos si la página actual es pc.html
+/**
+ * ! fetch
+ */
 
 fetch("../data.json")
   .then((response) => response.json())
@@ -65,7 +72,6 @@ fetch("../data.json")
     console.log("Error:", error);
   });
 
-// Manejar el clic derecho en el botón "ADD TO CART"
 function rightClick(product) {
   const existingItem = cartItems.find((item) => item.name === product.name);
 
@@ -80,7 +86,9 @@ function rightClick(product) {
   updateCartCount();
 }
 
-// Mostrar el modal del carrito
+/**
+ * ! modal cart
+ */
 const modalContainer = document.querySelector(".modal-container");
 const cartView = document.querySelector("#cart-icon");
 cartView.addEventListener("click", () => {
@@ -123,13 +131,17 @@ cartView.addEventListener("click", () => {
 
   updateCartItems();
 
-  // Redireccionar al hacer clic en el botón "CHECKOUT"
+  /**
+   * ! checkout redirect
+   */
   checkoutButton.addEventListener("click", () => {
-    window.location.href = "../paymentmethod.html"; // Reemplaza "URL_DE_LA_PAGINA" con la URL a la que deseas redireccionar
+    window.location.href = "../paymentmethod.html";
   });
 });
 
-// Actualizar la cantidad de elementos en el carrito
+/**
+ * ! update cart count
+ */
 function updateCartCount() {
   const cartCount = document.querySelector(".cart-count");
   const count = cartItems.reduce((acc, item) => acc + item.quantity, 0);
@@ -139,7 +151,9 @@ function updateCartCount() {
   }
 }
 
-// Formatear precio
+/**
+ *  ! format price
+ */
 function formatPrice(price) {
   return price.toLocaleString("es-AR", {
     style: "currency",
@@ -149,7 +163,9 @@ function formatPrice(price) {
   });
 }
 
-// Actualizar los elementos en el carrito
+/**
+ * ! update cart items
+ */
 function updateCartItems() {
   const cartContent = modalContainer.querySelector(".modal-content");
   cartContent.innerHTML = "";
