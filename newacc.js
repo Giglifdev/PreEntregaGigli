@@ -6,27 +6,51 @@ document.addEventListener("DOMContentLoaded", function () {
   if (registerBtn) {
     registerBtn.addEventListener("click", function (event) {
       event.preventDefault();
-
-      Swal.fire({
-        title: "Are you sure?",
-        text: "You won't be able to revert this!",
-        icon: "warning",
-        showCancelButton: true,
-        confirmButtonColor: "#3085d6",
-        cancelButtonColor: "#d33",
-        confirmButtonText: "Yes, register me!",
-      }).then((result) => {
-        if (result.isConfirmed) {
-          Swal.fire(
-            "Registered!",
-            "You have been successfully registered.",
-            "success"
-          ).then(() => {
-            window.location.href =
-              "../../pages/AccountImplements/indexwithacc.html";
-          });
-        }
-      });
+      registerNewAccount();
     });
   }
 });
+
+function registerNewAccount() {
+  const name = document.querySelector("#name").value;
+  const email = document.querySelector("#email").value;
+  const password = document.querySelector("#password").value;
+  const confirmPassword = document.querySelector("#confirm-password").value;
+  const acceptTerms = document.querySelector("#accept-terms").checked;
+
+  if (
+    name.trim() === "" ||
+    email.trim() === "" ||
+    password.trim() === "" ||
+    confirmPassword.trim() === ""
+  ) {
+    Swal.fire("Error", "Please complete all fields.", "error");
+    return;
+  }
+
+  if (password !== confirmPassword) {
+    Swal.fire("Error", "Password doesnt match.", "error");
+    return;
+  }
+
+  if (!acceptTerms) {
+    Swal.fire("Error", "You must agree to terms and conditions.", "error");
+    return;
+  }
+
+  let newUser = {
+    name: name,
+    email: email,
+    password: password,
+  };
+
+  localStorage.setItem("newUser", JSON.stringify(newUser));
+
+  Swal.fire(
+    "Registered",
+    "Your account has been successfully registered.",
+    "success"
+  ).then(() => {
+    window.location.href = "../../pages/AccountImplements/Account.html";
+  });
+}

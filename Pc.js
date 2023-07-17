@@ -16,6 +16,7 @@ document.body.appendChild(cardContainer2);
  *  ! cart
  */
 let cartItems = [];
+localStorage.removeItem("cartItems");
 
 let cartItemsSaved = localStorage.getItem("cartItems");
 if (cartItemsSaved) {
@@ -57,7 +58,12 @@ fetch("../data.json")
       button.addEventListener("click", () => rightClick(product));
 
       const columnContainer = document.createElement("div");
-      columnContainer.classList.add("col-sm-4", "d-flex");
+      columnContainer.classList.add(
+        "col-sm-4",
+        "col-xl-4",
+        "col-xl-4",
+        "d-flex"
+      );
 
       if (i < 3) {
         cardContainer1.appendChild(columnContainer);

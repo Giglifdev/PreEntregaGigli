@@ -3,21 +3,32 @@
  */
 
 document.addEventListener("DOMContentLoaded", function () {
-  let loginsignBtn = document.querySelector(".loginsign");
+  const loginsignBtn = document.querySelector(".loginsign");
   console.log(loginsignBtn);
   if (loginsignBtn) {
     loginsignBtn.addEventListener("click", function (event) {
       event.preventDefault();
-      redirectToIndexWithAcc();
+      login();
     });
 
     loginsignBtn.addEventListener("submit", function (event) {
       event.preventDefault();
-      redirectToIndexWithAcc();
+      login();
     });
   }
 });
 
-function redirectToIndexWithAcc() {
-  window.location.href = "../../pages/AccountImplements/indexwithacc.html";
+function login() {
+  const username = document.querySelector("#username").value;
+  const password = document.querySelector("#password").value;
+
+  const newUser = JSON.parse(localStorage.getItem("newUser"));
+
+  if (!newUser || newUser.name !== username || newUser.password !== password) {
+    Swal.fire("Error", "Incorrect credentials. please try again.", "error");
+  } else {
+    Swal.fire("Welcome", "Login Successful", "success").then(() => {
+      window.location.href = "./indexwithacc.html";
+    });
+  }
 }
