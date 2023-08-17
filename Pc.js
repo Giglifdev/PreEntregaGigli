@@ -15,8 +15,8 @@ document.body.appendChild(cardContainer2);
 /**
  *  ! cart
  */
+
 let cartItems = [];
-localStorage.removeItem("cartItems");
 
 let cartItemsSaved = localStorage.getItem("cartItems");
 if (cartItemsSaved) {
@@ -134,6 +134,18 @@ cartView.addEventListener("click", () => {
   checkoutButton.className = "checkout-button";
   checkoutButton.innerText = "CHECKOUT";
   modalContainer.appendChild(checkoutButton);
+
+  const emptyButton = document.createElement("button");
+  emptyButton.className = "Empty-Button";
+  emptyButton.innerText = "Empty Cart";
+  modalContainer.appendChild(emptyButton);
+
+  emptyButton.addEventListener("click", () => {
+    cartItems = [];
+    localStorage.removeItem("cartItems");
+    updateCartItems();
+    updateCartCount();
+  });
 
   updateCartItems();
 

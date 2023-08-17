@@ -346,6 +346,12 @@ a:link {
   align-items: center;
 }
 
+.Empty-Button {
+  margin-left: 30px;
+  font-family: "Lora";
+  font-weight: bold;
+  border-radius: 2px;
+}
 /**
 * ! new account form
 **/
